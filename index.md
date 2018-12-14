@@ -19,10 +19,10 @@ Here we will talk about adding and removing games
 #### installgames.py
 1. First we need to add the name of the game to populate the list of games in the main menu.
 ```
-#Provides list of games in package to populate main menu
+\#Provides list of games in package to populate main menu
 def gamelist():
 
-#Add name of game as it should appear in the menu
+\#Add name of game as it should appear in the menu
 	return(['Game1', 'Game2', 'Game3'])
 gamelist.__doc__ = """List of available games"""
 ```
@@ -32,7 +32,7 @@ gamelist.__doc__ = """List of available games"""
 The naming convention is the name of the game followed by 'exec'.
 
 ```
-#Executes your game
+\#Executes your game
 def nameofgameexec():
 
 	return nameofgame.main()
