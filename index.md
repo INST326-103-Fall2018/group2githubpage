@@ -5,7 +5,8 @@ Welcome to the Group 2 final project page!
 
 Our final project is a game suite featuring profiles, score tracking, and easy to modify package to add and remove games dynamically.
 
-
+### Table of Contents
+- [Getting Started] 
 ### Getting Started
 
 Here we will talk about the package components
