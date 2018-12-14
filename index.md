@@ -58,7 +58,6 @@ In the __init__.py file, located in the \games folder, the name of the .py file 
 
 __all__ = ["game1", "game2", "game3"]
 
-
 ```
 
 
