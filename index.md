@@ -50,6 +50,16 @@ if __name__ == '__main__':
     assert nameofgameexec == True
 ```
 
+#### __init__.py
+
+In the __init__.py file, located in the \games folder, the name of the .py file for the new game will need to be added to the __all__ list. This allows for the games to be imported as modules all at once in the top-level programs.
+
+```markdown
+
+__all__ = ["game1", "game2", "game3"]
+
+
+```
 
 
 
