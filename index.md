@@ -11,6 +11,8 @@ Our final project is a game suite featuring profiles, score tracking, and easy t
 - [Setting Up](#setting-up)
   * [installgames.py](#installgamespy)
   * [__init__.py](#__init__py)
+  * [Future improvements](#future-improvements)
+- [Launching the Program](#launching-the-program)
 
 ### Getting Started
 
@@ -66,3 +68,13 @@ __all__ = ["game1", "game2", "game3"]
 
 ```
 
+#### Future improvements
+
+We would like to be able to allow users to just drop a new game into the games folder, and have everything update dynamically rather than requiring these steps.
+
+
+
+
+### Launching the Program
+
+Here we will talk about how to load/create profiles and use the menu
