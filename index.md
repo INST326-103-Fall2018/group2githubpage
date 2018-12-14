@@ -9,8 +9,8 @@ Our final project is a game suite featuring profiles, score tracking, and easy t
 
 - [Getting Started](#getting-started)
 - [Setting Up](#setting-up)
-  *[installgames.py](#installgames.py)
-  *[__init__.py](#__init__.py)
+  * [installgames.py](#installgames.py)
+  * [__init__.py](#__init__.py)
 
 ### Getting Started
 
