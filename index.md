@@ -17,12 +17,14 @@ Here we will talk about the package components
 Here we will talk about adding and removing games
 
 #### installgames.py
+
 1. First we need to add the name of the game to populate the list of games in the main menu.
-```
-\#Provides list of games in package to populate main menu
+
+```markdown
+#Provides list of games in package to populate main menu
 def gamelist():
 
-\#Add name of game as it should appear in the menu
+#Add name of game as it should appear in the menu
 	return(['Game1', 'Game2', 'Game3'])
 gamelist.__doc__ = """List of available games"""
 ```
@@ -31,17 +33,19 @@ gamelist.__doc__ = """List of available games"""
 2. A function to execute the game will need to be created in installgames.py.
 The naming convention is the name of the game followed by 'exec'.
 
-```
+```markdown
 \#Executes your game
 def nameofgameexec():
 
 	return nameofgame.main()
 nameofgame.__doc__ = """Executes your game"""
 ```
+
 The game's main function will be called in the game_bundle.py function to execute the game code.
 
 3. Add a test 
-```
+
+```markdown
 if __name__ == '__main__':
     assert nameofgameexec == True
 ```
