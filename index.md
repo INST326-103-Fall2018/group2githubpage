@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Group 2 - Game Package
 
 You can use the [editor on GitHub](https://github.com/INST326-103-Fall2018/inst326group2.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
