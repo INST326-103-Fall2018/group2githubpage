@@ -34,7 +34,7 @@ gamelist.__doc__ = """List of available games"""
 The naming convention is the name of the game followed by 'exec'.
 
 ```markdown
-\#Executes your game
+#Executes your game
 def nameofgameexec():
 
 	return nameofgame.main()
