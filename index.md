@@ -30,7 +30,7 @@ gamelist.__doc__ = """List of available games"""
 ```
 
 
-\2. A function to execute the game will need to be created in installgames.py.
+2. A function to execute the game will need to be created in installgames.py.
 The naming convention is the name of the game followed by 'exec'.
 
 ```markdown
