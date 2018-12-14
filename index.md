@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
 #### __init__.py
 
-\4.\ In the \_\_init\_\_.py file, located in the \games folder, the name of the .py file for the new game will need to be added to the \_\_all\_\_ list. This allows for the games to be imported as modules all at once in the top-level programs.
+4\. In the \_\_init\_\_.py file, located in the \games folder, the name of the .py file for the new game will need to be added to the \_\_all\_\_ list. This allows for the games to be imported as modules all at once in the top-level programs.
 
 ```markdown
 
