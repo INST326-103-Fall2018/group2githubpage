@@ -41,7 +41,7 @@ def nameofgameexec():
 nameofgame.__doc__ = """Executes your game"""
 ```
 
-The game's main function will be called in the game_bundle.py function to execute the game code.
+The game's main function will be called in the game_bundle.py program to execute the game code.
 
 - Add a test 
 
