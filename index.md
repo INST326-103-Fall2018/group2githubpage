@@ -1,14 +1,50 @@
 ## Group 2 - Game Package
 
 
+Welcome to the Group 2 final project page!
+
+Our final project is a game suite featuring profiles, score tracking, and easy to modify package to add and remove games dynamically.
+
+
+### Getting Started
+
+Here we will talk about the package components
 
 
 
+### Setting Up
+
+Here we will talk about adding and removing games
+
+#### installgames.py
+1. First we need to add the name of the game to populate the list of games in the main menu.
+```
+#Provides list of games in package to populate main menu
+def gamelist():
+
+#Add name of game as it should appear in the menu
+	return(['Game1', 'Game2', 'Game3'])
+gamelist.__doc__ = """List of available games"""
+```
 
 
+2. A function to execute the game will need to be created in installgames.py.
+The naming convention is the name of the game followed by 'exec'.
 
+```
+#Executes your game
+def nameofgameexec():
 
+	return nameofgame.main()
+nameofgame.__doc__ = """Executes your game"""
+```
+The game's main function will be called in the game_bundle.py function to execute the game code.
 
+3. Add a test 
+```
+if __name__ == '__main__':
+    assert nameofgameexec == True
+```
 
 
 
