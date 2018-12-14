@@ -30,7 +30,7 @@ gamelist.__doc__ = """List of available games"""
 ```
 
 
-2. A function to execute the game will need to be created in installgames.py.
+/2. A function to execute the game will need to be created in installgames.py.
 The naming convention is the name of the game followed by 'exec'.
 
 ```markdown
@@ -43,7 +43,7 @@ nameofgame.__doc__ = """Executes your game"""
 
 The game's main function will be called in the game_bundle.py function to execute the game code.
 
-3. Add a test 
+/3. Add a test 
 
 ```markdown
 if __name__ == '__main__':
