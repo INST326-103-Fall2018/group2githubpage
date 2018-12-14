@@ -18,7 +18,7 @@ Here we will talk about adding and removing games
 
 #### installgames.py
 
-1. First we need to add the name of the game to populate the list of games in the main menu.
+/1. First we need to add the name of the game to populate the list of games in the main menu.
 
 ```markdown
 #Provides list of games in package to populate main menu
