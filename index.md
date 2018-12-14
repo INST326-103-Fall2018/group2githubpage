@@ -18,7 +18,7 @@ Here we will talk about adding and removing games
 
 #### installgames.py
 
-\1.\ First we need to add the name of the game to populate the list of games in the main menu.
+\1\. First we need to add the name of the game to populate the list of games in the main menu.
 
 ```markdown
 #Provides list of games in package to populate main menu
@@ -30,7 +30,7 @@ gamelist.__doc__ = """List of available games"""
 ```
 
 
-\2.\ A function to execute the game will need to be created in installgames.py.
+\2\. A function to execute the game will need to be created in installgames.py.
 The naming convention is the name of the game followed by 'exec'.
 
 ```markdown
@@ -43,7 +43,7 @@ nameofgame.__doc__ = """Executes your game"""
 
 The game's main function will be called in the game_bundle.py program to execute the game code.
 
-\3.\ Add a test 
+\3\. Add a test 
 
 ```markdown
 if __name__ == '__main__':
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
 #### __init__.py
 
-\4.\ In the \__init__\.py file, located in the \games folder, the name of the .py file for the new game will need to be added to the \__all__ list. This allows for the games to be imported as modules all at once in the top-level programs.
+\4.\ In the \_\_init\_\_.py file, located in the \games folder, the name of the .py file for the new game will need to be added to the \_\_all\_\_ list. This allows for the games to be imported as modules all at once in the top-level programs.
 
 ```markdown
 
