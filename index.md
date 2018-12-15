@@ -11,7 +11,7 @@ Our final project is a game suite featuring profiles, score tracking, and easy t
 - [Setting Up](#setting-up)
   * [installgames.py](#installgamespy)
   * [__init__.py](#__init__py)
-  * [Future improvements](#future-improvements)
+- [Future improvements](#future-improvements)
 - [Launching the Program](#launching-the-program)
 
 ### Getting Started
@@ -80,13 +80,13 @@ __all__ = ["game1", "game2", "game3"]
 
 - We would like to implement contexual scoring rather than requiring games to follow a certain structure.
 
-- Some of the included games need bug fixes
+- Some of the included games need bug fixes.
 
-- We would like to handle multiple profiles for multiplayer games, such as pong.py
+- We would like to handle multiple profiles for multiplayer games, such as pong.py.
 
-- The scores are currently only being tracked as a history rather than updating inside the file
+- The scores are currently only being tracked as a history rather than updating inside the file.
 
-- Create more interactive and detailed main menu
+- Create more interactive and detailed main menu.
 
 
 
