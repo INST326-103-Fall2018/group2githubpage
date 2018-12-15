@@ -90,5 +90,6 @@ __all__ = ["game1", "game2", "game3"]
 
 - Implement a GUI.
 
-/n
-Authored by Chris Davis
+
+
+####Authored by Chris Davis
