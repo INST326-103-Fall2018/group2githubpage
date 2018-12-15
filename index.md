@@ -16,13 +16,19 @@ Our final project is a game suite featuring profiles, score tracking, and easy t
 
 ### Getting Started
 
-Here we will talk about the package components
+1. Download game_package.zip and unzip to desired directory
+2. Run game_bundle.py to start program
+   - User may include profile name on command line to load or create profile
+   - If profile name exists, the profile will load. Leaving the CLA blank will prompt user for username
+3. After profile handling, the main menu will appear. Type the name of the game to begin playing.
+4. After exiting the game, the main menu will appear again to play a new game.
+   - Scores will be saved on game exit.
+5. Type 'exit' at main menu to quit the program.
 
 
+### Setting Up A New Game
 
-### Setting Up
-
-Here we will talk about adding and removing games
+A few steps are needed to add a new game to the package
 
 #### installgames.py
 
