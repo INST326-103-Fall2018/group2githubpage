@@ -91,3 +91,4 @@ __all__ = ["game1", "game2", "game3"]
 - Implement a GUI.
 
 
+Authored by Chris Davis
