@@ -88,4 +88,6 @@ __all__ = ["game1", "game2", "game3"]
 
 - Create more interactive and detailed main menu.
 
+- Implement a GUI.
+
 
