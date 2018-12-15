@@ -74,9 +74,19 @@ __all__ = ["game1", "game2", "game3"]
 
 ```
 
-#### Future improvements
+### Future improvements
 
-We would like to be able to allow users to just drop a new game into the games folder, and have everything update dynamically rather than requiring these steps.
+- We would like to be able to allow users to just drop a new game into the games folder, and have everything update dynamically rather than requiring these steps.
+
+- We would like to implement contexual scoring rather than requiring games to follow a certain structure.
+
+- Some of the included games need bug fixes
+
+- We would like to handle multiple profiles for multiplayer games, such as pong.py
+
+- The scores are currently only being tracked as a history rather than updating inside the file
+
+- Create more interactive and detailed main menu
 
 
 
